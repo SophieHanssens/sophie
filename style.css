@@ -1,11 +1,31 @@
-div {
-    border: 1px solid red;
-  }
-  /* or */
-  div {
-    border-top: 1px solid red;
-    border-right: 2px dotted black;
-    border-bottom: 1px dashed green;
-    border-left: 2px dotted black;
-  }
-  
+body {
+  background-color: rgb(224, 215, 215);
+  color: rgb(43, 41, 41);
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: small;
+  line-height: normal;
+}
+
+h1 {
+  color: rgb(119, 23, 23);
+  font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
+  line-height: normal;
+}
+
+h2 {
+  color: rgb(179, 33, 33);
+  font-family: 'Caveat', cursive;
+  font-size: large;
+  line-height: normal;
+}
+
+a {
+  color: rgb(58, 53, 53);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(121, 121, 115);
+  text-decoration: underline;
+}
